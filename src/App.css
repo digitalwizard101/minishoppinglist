@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.main-div {
+  background-color: rgb(232, 233, 206);
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  padding: 20px;
+
+
+}
+
+
+.App {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 400px;
+  min-width: fit-content;
+  width: 30px;
+  border: 2px solid rgb(28, 25, 25);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  text-wrap: wrap;
+  box-sizing: border-box;
+  text-shadow: 2px 2px 5px;
+  padding: 20px;
+  border-radius: 20px;
+  overflow-wrap: normal;
+  background-color: rgb(232, 233, 206);
+  height: min-content;
+  border-radius: 5px;
+  box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.35);
+
 }
 
-.App-link {
-  color: #61dafb;
+.form-control {
+  margin-top: 30px;
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* button {
+  text-align: center;
+  align-items: center;
+} */
+
+span {
+  margin: 0px 20px 0px 20px;
+  font-size: larger;
+}
+
+.add-button {
+  height: 50px;
+  margin-top: 29px;
+  margin-left: 5px !important;
+  width: 50px;
+  align-items: center;
+  font-weight: 50;
+
+}
+
+
+.mapped-list {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px;
+  align-items: center;
+  padding: 5px;
+}
+
+
+.selected-item {
+  text-decoration: line-through;
 }
