@@ -73,6 +73,10 @@ const App = () => {
       <div className="container App">
         <div className="row">
           <div className="col-12">
+
+            <h1 style={{ fontFamily: "cursive", textAlign: "center" }}>
+              My Shopping List
+            </h1>
             {alert ? (
               <span class="alert alert-danger" role="alert">
                 Item or Unit cannot be empty
